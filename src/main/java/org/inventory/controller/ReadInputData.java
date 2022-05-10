@@ -118,7 +118,6 @@ public class ReadInputData {
 
     }
     public void generateOutputFile(){
-        //System.out.println("Zing Zing Amazing");
         if(output.size()==0){
             output.add("Amount Paid");
             output.add(Double.toString((currOrder.getTotalPrice())));
