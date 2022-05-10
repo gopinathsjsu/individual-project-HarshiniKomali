@@ -19,6 +19,27 @@ Design and implement a Java application for the following requirements. You may 
  * This pattern is a creational pattern which ensures that a class has only one instance created by providing global access to the instance.
  * This pattern is used for connecting to the inventory database.
  * The "Inventory" class is the database class in this application which is present in the models folder. We use getInstance() method to check if an instance of the     Inventory class is already created or not. If it exists, we use the existing instance, otherwise an instance is created. This ensures that only single instance of the Inventory class is created and used.
+ 
+2. Factory Pattern:
+ * It is a creational design pattern that provides an interface for creating objects in the superclass and the subclasses can alter the type of objects they create.
+ * This pattern is used for the output file generation.
+ * The "OutputFile" which is present in the output folder is an interface. The "OrderFile" implements the OutputFile when the order is successful to create the output.csv file and the "ErrorFile" implements to create the error file in case of any errors.
+ 
+3. Chain of Responbility Pattern:
+ * It is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides whether to process the request or to pass it to the next handler in the chain.
+ * This pattern is to determine if the order can be processed correctly or not. The following files are used in this pattern:
+   * Interface ValidationHandler
+   * Class ItemPresenceValidator
+   * Class ItemStockValidator
+   * Class ItemCategoryCapValidator
+ The ValidationHandler is the interface. The ItemPresenceValidator checks is the requested item is present in the inventory database or not. The ItemStockvalidator checks if the requested stock for the item is present or not. The ItemCategoryCapValidator checks the if the user requested items of a particular category which exceeds its maximum limit.
+ 
+ ## Limits for different categories
+ 1. Essential items: 40
+ 2. Luxury items: 30
+ 3. Miscellaneous items: 60
+ 
+ 
    
  
 
