@@ -10,6 +10,15 @@ Design and implement a Java application for the following requirements. You may 
 4. Run the command "java -jar cmpe202_individual-1.0-SNAPSHOT.jar <Path to inventory.csv file> <Path to cards.csv file> <Path to order.csv file>".
 5. Output files will be generaterd in the same folder as the input files.
 
-## Design Pattern used
+## Design Patterns used
+1. Singleton
+2. Factory
+3. Chain of Responsibility
+ 
+1. Singleton Pattern: 
+ * This pattern is a creational pattern which ensures that a class has only one instance created by providing global access to the instance.
+ * This pattern is used for connecting to the inventory database.
+ * The "Inventory" class is the database class in this application which is present in the models folder. We use getInstance() method to check if an instance of the     Inventory class is already created or not. If it exists, we use the existing instance, otherwise an instance is created. This ensures that only single instance of the Inventory class is created and used.
+   
  
 
