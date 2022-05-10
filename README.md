@@ -20,10 +20,14 @@ Design and implement a Java application for the following requirements. You may 
  * This pattern is used for connecting to the inventory database.
  * The "Inventory" class is the database class in this application which is present in the models folder. We use getInstance() method to check if an instance of the     Inventory class is already created or not. If it exists, we use the existing instance, otherwise an instance is created. This ensures that only single instance of the Inventory class is created and used.
  
+ ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/tree/main/class_diagrams/singleton.png)
+ 
 2. Factory Pattern:
  * It is a creational design pattern that provides an interface for creating objects in the superclass and the subclasses can alter the type of objects they create.
  * This pattern is used for the output file generation.
  * The "OutputFile" which is present in the output folder is an interface. The "OrderFile" implements the OutputFile when the order is successful to create the output.csv file and the "ErrorFile" implements to create the error file in case of any errors.
+ 
+ ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/tree/main/class_diagrams/factory_pattern.png)
  
 3. Chain of Responbility Pattern:
  * It is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides whether to process the request or to pass it to the next handler in the chain.
@@ -33,6 +37,8 @@ Design and implement a Java application for the following requirements. You may 
    * Class ItemStockValidator
    * Class ItemCategoryCapValidator
  The ValidationHandler is the interface. The ItemPresenceValidator checks is the requested item is present in the inventory database or not. The ItemStockvalidator checks if the requested stock for the item is present or not. The ItemCategoryCapValidator checks the if the user requested items of a particular category which exceeds its maximum limit.
+ 
+ ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/tree/main/class_diagrams/cor.png)
  
  ## Maximum Limits for different categories
  1. Essential items: 40
