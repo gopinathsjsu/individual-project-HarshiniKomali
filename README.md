@@ -41,6 +41,8 @@ Design and implement a Java application for the following requirements. You may 
  
  ## Code Execution
   * Inventory file path not given
+    [!alt_text]("https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_1.png")
+ 
   * Card data file path not given
   * Order data file path not given
   * For the deafult input (the input given in the canvas example)
