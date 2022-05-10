@@ -41,14 +41,33 @@ Design and implement a Java application for the following requirements. You may 
  
  ## Code Execution
   * Inventory file path not given
+ 
     ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_1.png)
  
   * Card data file path not given
+    
+    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_2.png)
+ 
   * Order data file path not given
+    
+    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_3.png)
+ 
   * For the deafult input (the input given in the canvas example)
+ 
+    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_4.png)
+ 
   * For a valid input with different numbers
+ 
+    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_5.png)
+ 
   * When the requested item is missing
+   
+    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_6.png)
+ 
   * When the category limit exceeded
+ 
+    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_7.png)
+ 
  
  
    
