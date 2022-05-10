@@ -1,0 +1,4 @@
+Please fix the following error.
+Requested quantity 500 for HomeDecorPiece is not present. There are only 100 items
+Please fix the following error.
+Requested quantity 35 for Luxury category exceeds the limit. There are 30 items only.
