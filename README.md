@@ -52,18 +52,6 @@ Design and implement a Java application for the following requirements. You may 
  3. Miscellaneous items: 60
  
  ## Code Execution
-  * Inventory file path not given
- 
-    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_1.png)
- 
-  * Card data file path not given
-    
-    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_2.png)
- 
-  * Order data file path not given
-    
-    ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_3.png)
- 
   * For the deafult input (the input given in the canvas example) (input-1.csv)
  
     ![alt_text](https://github.com/gopinathsjsu/individual-project-HarshiniKomali/blob/main/screenshots/screenshot_4.png)
