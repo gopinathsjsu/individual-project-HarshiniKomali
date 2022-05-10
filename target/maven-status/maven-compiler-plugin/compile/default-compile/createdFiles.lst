@@ -1,0 +1,17 @@
+org\inventory\model\OrderItems.class
+org\inventory\model\Inventory.class
+org\inventory\validators\ItemCategoryCapValidator.class
+org\inventory\output\FileHelper.class
+org\inventory\validators\ValidationHandler.class
+org\inventory\model\Items.class
+org\inventory\validators\ItemPresenceValidator.class
+org\inventory\output\OutputFile.class
+org\inventory\Billing.class
+org\inventory\controller\ReadCardData.class
+org\inventory\model\Cards.class
+org\inventory\validators\ItemStockValidator.class
+org\inventory\model\Orders.class
+org\inventory\controller\ReadInventoryData.class
+org\inventory\controller\ReadInputData.class
+org\inventory\output\ErrorFile.class
+org\inventory\output\OrderFile.class
