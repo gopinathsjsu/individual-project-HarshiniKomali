@@ -34,10 +34,19 @@ Design and implement a Java application for the following requirements. You may 
    * Class ItemCategoryCapValidator
  The ValidationHandler is the interface. The ItemPresenceValidator checks is the requested item is present in the inventory database or not. The ItemStockvalidator checks if the requested stock for the item is present or not. The ItemCategoryCapValidator checks the if the user requested items of a particular category which exceeds its maximum limit.
  
- ## Limits for different categories
+ ## Maximum Limits for different categories
  1. Essential items: 40
  2. Luxury items: 30
  3. Miscellaneous items: 60
+ 
+ ## Code Execution
+  * Inventory file path not given
+  * Card data file path not given
+  * Order data file path not given
+  * For the deafult input (the input given in the canvas example)
+  * For a valid input with different numbers
+  * When the requested item is missing
+  * When the category limit exceeded
  
  
    
